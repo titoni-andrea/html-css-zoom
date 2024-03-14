@@ -18,7 +18,9 @@ main {
     height: 90%;
     width: 100%;
     background-color: #000;
-    padding-top: 30px; 
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px; 
 }
 
 /* --- TOOLBAR --- */
@@ -37,6 +39,34 @@ main {
     padding: 5px 5px;
     border-radius: 7px;
 }
+
+/* --- UTENTI --- */
+
+.raccolta-utenti {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.utente {
+    width: calc((100%/7) - 0.87rem);
+    height: calc(100%/5);
+    position: relative;
+}
+
+.utente img {
+    width: 100%;
+}
+
+.badge {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(91, 90, 90, 0.5);
+    padding: 5px;
+    color: white;
+}
+
 
 /* ---------------- FOOTER ---------------- */
 
